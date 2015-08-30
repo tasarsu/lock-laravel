@@ -12,6 +12,6 @@ class LockManager extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return Manager::class;
+        return \BeatSwitch\Lock\Manager::class;
     }
 }
